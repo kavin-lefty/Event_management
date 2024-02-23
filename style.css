@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.lander {
+  background-image: url(/images/best_destination_wedding_planner_lk_events_morgan_manufacturing_jamie_loren_weddings.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+}
+.godfather {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.font {
+  font-family: "Great Vibes", serif;
+  font-size: xx-large;
+}
+.rock{
+  font-family: "Rock Salt",serif;
+}
+#contact{
+  background: url(images/banner-1st.jpg),center,no-repeat;
+  background-size: cover;
+}
+.blur{
+  backdrop-filter: blur(10px);
+}
+.curved {
+  background: transparent;
+  overflow: hidden;
+  color: aliceblue;
+}
+
+/* password validation*/
+
+.requirement-list li {
+  font-size: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.requirement-list li i {
+  width: 20px;
+  color: #aaa;
+  font-size: 0.6rem;
+}
+.requirement-list li.valid i {
+  font-size: 1.2rem;
+  color: #4285f4;
+}
+.requirement-list li span {
+  margin-left: 12px;
+  color: #333;
+}
+.requirement-list li.valid span {
+  color: #999;
+}
+.pass-eye {
+  cursor: pointer;
+}
+
+/* Service banner */
+
+.service-banner {
+  position: relative;
+  background: url(/images/liquid-artiste-SUwPo4ErQCc-unsplash.jpg), center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .service-banner::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  background-image: linear-gradient(rgb(116, 116, 222),rgb(243, 130, 130));
+  opacity: 0.4;
+} */
+
+/* gallery banner */
+.gallery-banner1{
+  background-image: url(/images/banner-1st.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gallery-banner2{
+  background-image: url(/images/gallery-banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* .gallery-banner2::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  background-image: linear-gradient(rgb(116, 116, 222),rgb(243, 130, 130));
+  opacity: 0.4;
+} */
+.gallery-banner3{
+  background-image: url(/images/gallery-banner3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blend{
+  background: linear-gradient(to bottom right,black,rgb(255, 255, 255));
+  background-clip: text;  
+  color: transparent;
+}
